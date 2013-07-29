@@ -10,7 +10,7 @@ Illustrates a basic scriptcs module which configures a custom file system.
 ## Installing
 * Install scriptcs from my fork (https://github.com/glennblock/scriptcs) and pull from branch 346.
 * Run the build script.
-* Open VS and add your "scriptcs/artifacts/debug" folder to your sources.
+* Open VS and add your "scriptcs/artifacts/debug" folder to your package sources.
 * Clone this repo.
 * Open the solution and build it.
 * From the command line create a package: `nuget pack -version 0.1.0-alpha`
