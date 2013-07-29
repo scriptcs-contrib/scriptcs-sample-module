@@ -19,13 +19,13 @@ Illustrates a basic scriptcs module which configures a custom file system.
  
 ## Forcing the module to load using the REPL.
 * Run scriptcs forcing the module to load: `scriptcs -loglevel debug -modules csx`
-* Check the log output for the messages "Sample module loaded" and "Sample module created".
+* Check the log output for the messages "Sample module initialized" and "TestFileSystem created".
 
 ## Loading the module automatically based on extension.
 * Create a boilerplace start.csx i.e. Console.WriteLine("Hello");
 * Run scriptcs with your file: `scriptcs start.csx -loglevel debug"
-* Check the log output for the messages "Sample module loaded" and "Sample module created".
+* Check the log output for the messages "Sample module initialized" and "TestFileSystem created".
 
 Note: 
-* The "Sample module loaded" is outputted by scriptcs when the module itself is loaded. 
-* "Sample module created" is outputted by the TestFileSystem override which the module configures. This happens when it is created during resolution.
+* The "Sample module initialized" is outputted by the module 
+* "TestFileSystem created" is outputted by the TestFileSystem override which the module configures. This happens when it is created during resolution.
