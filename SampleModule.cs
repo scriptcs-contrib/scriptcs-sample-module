@@ -12,7 +12,7 @@ namespace ScriptCs.SampleModule
     {
         public void Initialize(IModuleConfiguration config)
         {
-            Console.WriteLine("Sample module loaded");
+            Console.WriteLine("Sample module initialized");
             config.FileSystem<TestFileSystem>();
         }
     }
@@ -21,7 +21,7 @@ namespace ScriptCs.SampleModule
     {
         public TestFileSystem()
         {
-            Console.WriteLine("Sample module created");
+            Console.WriteLine("TestFileSystem created");
         }
     }
 }
