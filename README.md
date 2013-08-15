@@ -13,7 +13,7 @@ Illustrates a basic scriptcs module which configures a custom file system.
 * Open the solution and build it.
 * From the command line create a package: `nuget pack -version 0.1.0-alpha`
 * In VS edit your Nuget package sources and add the folder where the package lives.
-* Install the package globally: `scripts -install scriptcs.samplemodule -g -pre`
+* Install the package globally: `scriptcs -install scriptcs.samplemodule -g -pre`
  
 ## Forcing the module to load using the REPL.
 * Run scriptcs forcing the module to load: `scriptcs -loglevel debug -modules csx`
