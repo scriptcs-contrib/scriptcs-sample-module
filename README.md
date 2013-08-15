@@ -16,7 +16,7 @@ Illustrates a basic scriptcs module which configures a custom file system.
 * Install the package globally: `scriptcs -install scriptcs.samplemodule -g -pre`
  
 ## Forcing the module to load using the REPL.
-* Run scriptcs forcing the module to load: `scriptcs -loglevel debug -modules csx`
+* Run scriptcs forcing the module to load: `scriptcs -loglevel debug -modules sample`
 * Check the log output for the messages "Sample module initialized" and "TestFileSystem created".
 
 ## Loading the module automatically based on extension.
